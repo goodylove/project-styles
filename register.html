@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome5/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sup-menu">
+            <div class="conference">
+                <h1>STYLE CONFERENCE</h1>
+            </div>
+            <div class="august">
+                <h1>August 24 - 26 - <span class="il">chicago , - IL</span></h1>
+            </div>
+        </div>
+        <div class="menu">
+            <ul class="unlist">
+                <li><a href="styleconference.html">HOME</a></li>
+                <li><a href="speaker.html">SPEAKERS</a></li>
+                <li><a href="Schedule.html">SCHEDULE</a></li>
+                <li><a href="venue.html">VENUE</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </ul>
+            <div class="bars"> <li><i class="fas fa-bars barse" style="color:white;"></i></li></div>
+        </div>
+        <div class="mobile-menu">
+        
+               
+            <ul class="mobile">
+                <li><a href="styleconference.html">HOME</a></li>
+                <li><a href="speaker.html">SPEAKERS</a></li>
+                <li><a href="Schedule.html">SCHEDULE</a></li>
+                <li><a href="venue.html">VENUE</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="register">
+        <h3>Register</h3>
+        <p>Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. Confernece passes only cost $99,one of the best values you'll find
+        
+        </p>
+        </div>
+        <div class="secon-con">
+            <div class="purchases">
+                <div class="pas"><h4>purchase a Confernece Pass</h4>
+                    <h5>$99 PER PASS</h5></div>
+                    <div class="style">
+                        <p>purchase your style conference pass using the form of the right multiple passes may be purchased 
+                            within the same order, so feel free to  bring friends or two along.once your order is finished 
+                            we'll follow up and provide a recipt for your purchase. see you soon! 
+                        </p>
+                        <h4>Why Attend?</h4>
+                        <ul type="square">
+                            <li>over tewnty world-class speakers </li>
+                            <li>one full day of workshops and two full days of presentations</li>
+                            <li>Hosted at The chicago Theatre, a historical landmark </li>
+                            <li>August in chicago is simply amazing</li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="form">
+                Name
+                <input type="name"  class="name" placeholder="Full name">
+
+                Email
+                <input type="email" class="name" placeholder="Email address">
+
+                Number of passes
+                <select name="number" id="num">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                Comments
+                <!-- <Textarea name="comment"   id="comnt"> </Textarea> -->
+                <input type="comment" name="comment" id="comnt">
+
+                <input type="button" value="PURCHASE" id="btn">
+
+            </div>
+
+
+
+        </div>
+        <div class="third-container">
+            <div><h6>@ style conference</h6></div>
+            <div class="menus">
+                <ul class="unlit">
+                    <li><a href="styleconference.html">Home</a></li>
+                    <li><a href="speaker.html">Speakers</a></li>
+                    <li><a href="Schedule.html">Schedule</a></li>
+                    <li><a href="venue.html">venue</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+    
+            </div>
+    
+        </div>
+        <script>
+            let hambuger = document.querySelector(".barse")
+            let mobile = document.querySelector(".mobile")
+            let hammer = document.querySelector(".bars")
+        
+            hambuger.addEventListener("click", function () {
+                mobile.classList.toggle("show")
+                hammer.classList.add("close")
+            })
+        </script>
+</body>
+</html>

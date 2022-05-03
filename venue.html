@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="venue.css">
+    <link rel="stylesheet" href="fontawesome5/fontawesome-free-5.15.3-web/css/all.min.css">
+    <title>Venue</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sup-menu">
+            <div class="conference">
+                <h1>STYLE CONFERENCE</h1>
+            </div>
+            <div class="august">
+                <h1>August 24 - 26 - <span class="il">chicago,- IL</span></h1>
+            </div>
+        </div>
+        <div class="menu">
+            <ul class="unlist">
+                <li><a href="styleconference.html">HOME</a></li>
+                <li><a href="speaker.html">SPEAKERS</a></li>
+                <li><a href="Schedule.html">SCHEDULE</a></li>
+                <li><a href="venue.html">VENUE</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </ul>
+            <div class="bars"> <li><i class="fas fa-bars barse" style="color:white;"></i></li></div>
+        </div>
+        <div class="mobile-menu">
+        
+               
+            <ul class="mobile">
+                <li><a href="styleconference.html">HOME</a></li>
+                <li><a href="speaker.html">SPEAKERS</a></li>
+                <li><a href="Schedule.html">SCHEDULE</a></li>
+                <li><a href="venue.html">VENUE</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="venue">
+        <h3>Venue</h3>
+        <p>The conference is held at the chicago theater, a beautifull historical landmark. the conferencehotel, four
+            season,is a short walk away down state street
+        
+        </p>
+        </div>
+
+        <div class="map1">
+            <div class="chicago">
+                <h2>Chicago Theatre</h2>
+               <div class="go"> 
+                <p><h3>175 N State st Chicago,IL 60601</h3></p></div>
+               <div class="com"> <h4><a href="#">thechicagotheatre.com</a></h4>
+                <p>(321)462-6300</p></div>
+            </div>
+            <div class="chicago-img">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.341269747278!2d-87.62977428505577!3d41.88551717292984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca55810a493%3A0x4700ddf60fcbfad6!2sThe%20Chicago%20Theatre!5e0!3m2!1sen!2sng!4v1650825932007!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"  class="chica-map"></iframe>
+         
+                
+            </div>
+
+        </div>
+
+
+        <div class="map2">
+            <div class="chicago">
+                <h2>Four Seasons</h2>
+            <div class="go"><h3><p>120 E Deleware PI chicago,IL60611</p></h3></div>
+            <div class="com"><h4><a href="#">fourseasons.com</a></h4>
+                <p>(312)280-8800</p></div>
+            </div>
+            <div class="chicago-img">
+               
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.696733121932!2d-87.62732818505529!3d41.89937877206219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd353c38dcf9b%3A0x403a636ca96a613c!2sFour%20Seasons%20Hotel%20Chicago!5e0!3m2!1sen!2sng!4v1650825788417!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                 referrerpolicy="no-referrer-when-downgrade" class="four-map"></iframe>
+                 
+                <!-- <div class="theart">
+                    <h2>Four seasons Hotel Chicago</h2>
+                    <h3>View larger map</h3>
+                </div> -->
+            </div>
+        </div>
+        <div class="third-container">
+            <div><h6>@ style conference</h6></div>
+            <div class="menu">
+                <ul class="unlist">
+                    <li><a href="styleconference.html">Home</a></li>
+                    <li><a href="speaker.html">Speakers</a></li>
+                    <li><a href="Schedule.html">Schedule</a></li>
+                    <li><a href="venue.html">venue</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+    
+            </div>
+    
+        </div>
+        <script>
+            let hambuger = document.querySelector(".barse")
+            let mobile = document.querySelector(".mobile")
+            let hammer = document.querySelector(".bars")
+        
+            hambuger.addEventListener("click", function () {
+                mobile.classList.toggle("show")
+                hammer.classList.add("close")
+            })
+        </script>
+</body>
+</html>

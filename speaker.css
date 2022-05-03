@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* top-container */
+
+.container {
+    background-color:#293f50;
+    /* height:100%; */
+    width:98%;
+    margin: 0rem 1rem;
+}
+
+
+
+
+
+/* sup-menu */
+.sup-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    flex-wrap: wrap;
+
+}
+
+.conference {
+      
+    max-width: auto;
+    font-size: 1.3rem;
+    color:#506270;
+    display: flex;
+    flex-direction: column;
+}
+
+.august {
+    width: 22rem;
+    padding: 0px 2.0rem;
+    text-align: right;
+    font-size:1rem;
+    color:#506270;
+    margin: 1rem 0rem;
+    display: flex;
+}
+
+.il {
+    text-align: right;
+    padding-left: 6rem;
+}
+
+/* menu */
+.menu {
+  
+    display: flex;
+     justify-content:flex-end; 
+    align-items: center;
+}
+.barse{
+    display: none;
+}
+
+
+.unlist {
+    display: flex;
+    justify-content: right;
+    padding: 2rem;
+}
+
+.unlist li {
+    padding: 0.5rem;
+   
+}
+.unlist li a{
+color: #fff;
+}
+.speak{
+     display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(to right,#64e486,#f8f5a7);
+    /* opacity: 0 7;  */
+     /* padding: 1rem 5rem;  */
+    /* margin-top: -26rem; */
+    font-size: larger;
+    height:100px;
+    width:97%;
+    flex-wrap: wrap;
+}
+.speak p{
+     width:37rem;
+    color: #506270; 
+    display: flex;
+    justify-content: center;
+
+}
+/* first speaker Aaron */
+.work-place{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:30rem;
+    
+}
+ .second-container{
+     margin-top:-3rem;
+    background-color: whitesmoke;
+    width:97%;
+} 
+
+body{
+    background-color:#293f50; 
+    height:100vh; 
+}
+.work-place h3{
+    color: #b0d8b6;
+}
+.img-all{
+    width: 6rem;
+    height:6rem;
+    border-radius:50%;
+    position: absolute;
+    z-index: 5;
+    margin:-2rem 8rem;
+}
+.box{
+    width: 18rem;
+    height:10rem;
+    border: 2px solid #efefd0;
+    margin:1rem 2rem;
+    z-index: 2;
+    
+}
+.box p{
+    /* width: 10rem; */
+    padding:6rem 5.4rem;
+    text-align: center;
+    color:#b0d8b6;
+    font-weight:200px;
+}
+.work-place h4,  h5{
+    color:#506270;;
+}
+.img-aron{
+    position: relative;
+    margin: 5rem 0;
+}
+.Aaron{
+    display: flex;
+    justify-content:space-around;
+    margin:3rem 0rem;
+    flex-wrap: wrap;
+    }
+    .disc{
+        border-bottom: 1px solid #506270;color: #b0d8b6;
+
+    }
+    .work-place P{
+        color:#506270;;
+        margin:1rem 0;
+    }
+    .mobile li{
+        padding: 10px;
+        
+        }
+        .mobile li  a{
+            color: #efefd0
+           ;
+           }
+
+.mobile{
+    display: none;
+}
+.mobile li{
+padding: 10px;
+
+}
+.mobile li  a{
+ color: #efefd0
+;
+  }  .show{
+        animation: more 3s alternate-reverse ease-in-out;
+        height: 100%;
+    }
+    @keyframes more{
+        0%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+    @media screen and (max-width:800px){
+    
+    .unlist{
+        display:none;
+    }
+    .barse{
+        display: block;
+        margin-right: 4em;
+        
+    }
+    }
+    /* .mobile{
+        display: none; */
+    
+    /* .mobile li{
+    padding: 10px;
+     */
+    
+    /* .mobile li  a{
+     color: #efefd0
+    ;
+    } */
+    .mobile.show{
+        display:block;
+    
+    }
+    /* .show{
+        animation: more 3s alternate-reverse ease-in-out;
+        height: 100%;
+    }
+    @keyframes more{
+        0%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    } */
+    @media screen and (max-width:600px) {
+       .speak p{
+           flex-direction: column;
+           max-width: 100%;
+       }
+       .sup-menu{
+           flex-direction: column;
+           align-items: center;
+      
+       }   
+       .conference h1{
+           flex-wrap: wrap;
+           text-align: center;
+           height: 100%;
+           
+       }
+        
+    }
+    @media screen and (max-width:400px){
+        .speak{
+            flex-direction:column;
+            align-items:center;
+            height: auto;
+           
+        }
+        .speak h5{
+            align-items: center;
+        }
+        .conference h1{
+             flex-wrap: wrap; 
+            align-items: center;
+            width: 100%;
+            height: 100%;
+           
+            
+    }
+    }
+    
+   

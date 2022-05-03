@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* top-container */
+
+.container {
+    background-color:#293f50;
+    height:100%;
+    width:98%;
+    margin: 0rem 1rem;
+}
+
+
+
+
+
+/* sup-menu */
+.sup-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+
+}
+
+.conference {
+    width: 10%;
+    font-size: 1.3rem;
+    color:#506270;
+}
+
+.august {
+    width: 22rem;
+    padding: 0px 2.0rem;
+    text-align: right;
+    font-size:1rem;
+    color:#506270;
+    margin: 1rem 0rem;
+}
+
+.il {
+    text-align: right;
+    padding-left: 6rem;
+}
+
+/* menu */
+.menu {
+    display: flex;
+    
+    justify-content :right;
+    margin: 0 2em;
+
+}
+
+.unlist {
+    display: flex;
+    justify-content: right;
+    padding: 2rem;
+}
+
+.unlist li {
+    padding: 0.5rem;
+   
+}
+.unlist li a{
+color: #fff;
+}
+.venue{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(to right,#64e486,#f8f5a7);
+    opacity: 0 7;
+    padding: 1rem 3rem;
+    margin: 0rem 1rem; 
+    flex-wrap: wrap;
+}
+.venue p{
+    width:19rem;
+    color: #506270;
+    flex-wrap: wrap;
+}
+.venue h3{
+    color: #537057;
+}
+
+/* third-container */
+.third-container{
+    display: flex;
+   background:  #293f50;
+   justify-content: space-between;
+   text-align: center;
+   width: 98%;
+   margin:0rem 1rem ;
+}
+.third-container h6{
+    margin:2.5rem 1rem;
+    font-size: 1rem;
+    color: #506270;
+    
+
+}
+.chica-map{
+    width: 45rem;
+    height: 25rem;
+    margin-top: -1rem;
+
+}
+ .chicago{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12rem;
+    }
+    .chicago h2{
+        color: #b0d8b6;
+    }
+    .chicago h3,.com p{
+        color: #506270;
+    }
+ .com{
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+}
+.com a{
+    color: #b0d8b6;
+}
+.go{
+    margin: 1rem 0;
+    padding: 1rem -0.5rem;
+    font-size:1rem;
+    width:10rem;
+} 
+.map1{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 1rem;
+    text-align: center;
+    align-items: center;
+}
+.map2{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 1rem;
+    text-align: center;
+    align-items: center;
+}
+.map2{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 1rem;
+    text-align: center;
+    align-items: center;
+}.chicago-img{
+    position: relative;
+    display: flex;
+}
+.theart{
+background-color: rgb(248, 246, 246);
+width: 30rem;
+height: 5rem;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: left;
+align-items:flex-start;
+padding:0.5rem 2rem;
+position: absolute;
+top: -0.2rem;
+left: 1rem;
+border-radius: 10px;
+
+}
+.theart h2{
+color: black;
+}
+.theart h3{
+    color: rgb(107, 107, 247);
+
+}
+.four-map{
+    width: 45rem;
+    height: 25rem;
+    margin-top: -1rem;
+
+    /* margin-top: -1rem; */
+}
+.bars{
+    display:none;
+    align-items: center;
+    
+}
+.mobile li{
+    padding: 10px;
+    
+    }
+    .mobile li  a{
+        color: #efefd0
+       ;
+       }
+
+.mobile{
+display: none;
+}
+.mobile li{
+padding: 10px;
+
+}
+.mobile li  a{
+color: #fff
+;
+} 
+.mobile.show{
+    display: block;
+    background-color:#293f50;
+width:fit-content;
+margin: 0 1em;}
+@media screen and (max-width:900px) {
+    .unlist{
+        display: none;
+    }
+    .bars{display: block; align-items: center;}
+    .map1, .map2{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+}
+@media screen and (max-width:600px){
+    .sup-menu{flex-direction: column; align-items:center;}
+    .conference{font-size: small;}
+}
+@media screen and (max-width:400px){
+    .venue p{
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .sup-menu ,.conference,.august{flex-wrap: wrap;
+    align-items: center;width: auto;}
+    .chicago-img{
+        width:100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+}

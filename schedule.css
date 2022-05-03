@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* top-container */
+
+.container {
+    background-color:#293f50;
+    height:100%;
+    width:98%;
+    margin: 0rem 1rem;
+}
+
+
+
+
+
+/* sup-menu */
+.sup-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+
+}
+
+.conference {
+    width: 10%;
+    font-size: 1.3rem;
+    color:#506270;
+}
+
+.august {
+    width: 22rem;
+    padding: 0px 2.0rem;
+    text-align: right;
+    font-size:1rem;
+    color:#506270;
+    margin: 1rem 0rem;
+}
+
+.il {
+    text-align: right;
+    padding-left: 6rem;
+}
+
+/* menu */
+.menu {
+    display: flex;
+    
+    justify-content :right;
+    margin: 0 2em;
+
+}
+
+.unlist {
+    display: flex;
+    justify-content: right;
+    padding: 2rem;
+}
+
+.unlist li {
+    padding: 0.5rem;
+   
+}
+.unlist li a{
+color: #fff;
+}
+.schedule{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(to right,#64e486,#f8f5a7);
+    /* opacity: 0 7; */
+    padding: 1rem 5rem;
+    margin: 0rem 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.schedule p{
+    width:17rem;
+    color: #506270;
+}
+.tablets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%; 
+}
+tr{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+td{
+    display: block;
+    
+}
+
+.tablets  tr td{
+ padding: 1.5em 4em;
+ /* width:34em; */
+}
+.good{
+    border-top: 1px solid  #506270;
+    
+
+}
+.sho{
+    margin-top: 2rem 0;
+    width: 100%;
+}
+.bars{
+    display:none;
+    align-items: center;
+    
+}
+.mobile li{
+    padding: 10px;
+    
+    }
+    .mobile li  a{
+        color: #efefd0
+       ;
+       }
+
+.mobile{
+display: none;
+}
+.mobile li{
+padding: 10px;
+
+}
+.mobile li  a{
+color: #fff
+;
+} 
+.mobile.show{
+    display: block;
+    background-color:#293f50;
+width:fit-content;
+margin: 0 1em;
+    
+    
+
+
+}
+@media screen and (max-width:800px) {
+    .unlist{
+        display: none;
+    }
+    .bars{
+        display:block; 
+        
+
+    
+    }
+}
+@media screen and (max-width:500px){
+    tr {
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    width:auto
+    }
+td{
+    flex-direction: column;
+    align-items: center;
+}
+.tablets{
+    font-size: small
+}
+.sup-menu{
+    flex-wrap: wrap;
+    align-items: center;
+}
+}
+
+@media screen and (max-width:330px){
+    .conference{font-size: small;}
+}

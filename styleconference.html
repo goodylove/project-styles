@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style conference</title>
+    <link rel="stylesheet" href="styleconference.css">
+    <link rel="stylesheet" href="fontawesome5/fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sup-menu">
+            <div class="conference">
+                <h1>STYLE CONFERENCE</h1>
+            </div>
+            <div class="august">
+                <h1>August 24 - 26 - <span class="il">chicago , - IL</span></h1>
+            </div>
+        </div>
+        <div class="menu">
+            <ul class="unlist">
+                <li><a href="styleconference.html">HOME</a></li>
+                <li><a href="speaker.html">SPEAKERS</a></li>
+                <li><a href="Schedule.html">SCHEDULE</a></li>
+                <li><a href="venue.html">VENUE</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+            </ul>
+
+        </div>
+        <div class="bars"><i class="fas fa-bars barse" style="color:white;"></i></div>
+        <div class="craft">
+            <h1>Dedicated To The Craft Of Building Websites</h1>
+            <p>Every year the brightest web designers and front-end developer descend
+                on chicago to discuss the latest tech logies.Join us this
+                August!
+            </p>
+            <button type="button" class="Btn" value="REGISTER NOW">REGISTER NOW</button>
+
+        </div>
+    </div>
+    <div class="mobile-menu">
+        <ul class="mobile">
+            <li><a href="styleconference.html">HOME</a></li>
+            <li><a href="speaker.html">SPEAKERS</a></li>
+            <li><a href="Schedule.html">SCHEDULE</a></li>
+            <li><a href="venue.html">VENUE</a></li>
+            <li><a href="register.html">REGISTER</a></li>
+        </ul>
+    </div>
+    <div class="second-container">
+        <div class="img-one">
+            <h5>SPEAKERS</h5>
+            <img src="speaker.jpg" class="imag2">
+            <h3>World-class speakers</h3>
+            <p>joining us from all over the world are
+                over twenty fantastic speakers, here to
+                share their stories</p>
+        </div>
+        <div class="img-two">
+            <h5>SCHEDULE</h5>
+            <img src="inspire.jpg" class="imag2">
+            <h3>Three inspiring Days</h3>
+            <p>Enjoy three inspiring and action-packed
+                days of tals.gathering,and all-around
+                good times.
+            </p>
+        </div>
+        <div class="img-three">
+            <h5>VENUE</h5>
+            <img src="chicago.jpeg" class="imag3">
+            <h3>The chicago theater</h3>
+            <p>Within the heart of downtown chicago.
+                The chicago Theater will provide a
+                beautifull conference venue.
+            </p>
+        </div>
+
+
+
+    </div>
+    <div class="third-container">
+        <div>
+            <h6>@ style conference</h6>
+        </div>
+        <div class="menu">
+            <ul class="unlist">
+                <li><a href="styleconference.html">Home</a></li>
+                <li><a href="speaker.html">Speakers</a></li>
+                <li><a href="Schedule.html">Schedule</a></li>
+                <li><a href="venue.html">venue</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        let hambuger = document.querySelector(".barse")
+        let mobile = document.querySelector(".mobile")
+        let hammer = document.querySelector(".bars")
+
+        hambuger.addEventListener("click", function () {
+            mobile.classList.toggle("show")
+            hammer.classList.add("close")
+        })
+    </script>
+
+</body>
+
+</html>
